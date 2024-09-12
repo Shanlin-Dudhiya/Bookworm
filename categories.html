@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories - Bookworm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo">
+            <a href="index.html">Bookworm</a>
+          </li>
+          <ul class="header-bar">
+            <li>
+              <a href="categories.html">Categories</a>
+            </li>
+            <li>
+              <a href="about.html">About us</a>
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="dropdown">
+        <select id="category-dropdown">
+          <option value="all">All Categories</option>
+          <option value="historic-fiction">Historic Fiction</option>
+          <option value="fantasy">Fantasy</option>
+          <option value="science-fiction">Science Fiction</option>
+          <option value="horror">Horror</option>
+          <option value="mystery">Mystery</option>
+          <option value="romance-novel">Romance Novel</option>
+          <option value="thriller">Thriller</option>
+          <option value="action-adventure">Action & Adventure</option>
+          <option value="short-story">Short Story</option>
+          <option value="childrens-literature">Children's Literature</option>
+        </select>
+      </div>
+      <div class="cat-books" id="cat-books">
+        <!-- Book items will be dynamically added here -->
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2024 Bookworm. All rights reserved.</p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
